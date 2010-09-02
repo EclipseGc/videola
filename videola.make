@@ -6,11 +6,12 @@ projects[pressflow][download][url] = "http://launchpad.net/pressflow/6.x/6.19.92
 
 ; Install Profiles
 projects[profiler][type] = "profile"
-projects[profiler][download][type] = "cvs"
-projects[profiler][revision] = "HEAD"
-projects[profiler_example][type] = "profile"
-projects[profiler_example][download][type] = "cvs"
-projects[profiler_example][revision] = "HEAD"
+projects[profiler][version] = "1.x-dev"
+
+; This doesn't download properly as it's packaged on d.o - but you should get
+; it, rename it, and customize.
+;projects[profiler_example][type] = "profile"
+;projects[profiler_example][version] = "1.x-dev"
 
 ; Modules
 projects[] = "addtoany"
