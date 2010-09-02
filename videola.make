@@ -103,6 +103,11 @@ libraries[SolrPhpClient][download][type] = "get"
 libraries[SolrPhpClient][download][url] = "http://solr-php-client.googlecode.com/files/SolrPhpClient.r22.2009-11-09.tgz"
 libraries[SolrPhpClient][directory_name] = "SolrPhpClient"
 libraries[SolrPhpClient][destination] = "modules/apachesolr"
+libraries[getid3][download][type] = "get"
+libraries[getid3][download][url] = "http://downloads.sourceforge.net/project/getid3/getID3%28%29%201.x/1.7.9/getid3-1.7.9.zip"
+libraries[getid3][directory_name] = "getid3"
+libraries[getid3][destination] = "libraries"
+
 
 ; Patches
 ; Add the ability to have cck edit field for a form context within panels. http://drupal.org/node/253071
