@@ -15,7 +15,7 @@ projects[profiler_example][revision] = "HEAD"
 ; Modules
 projects[] = "addtoany"
 projects[] = "admin"
-projects[] = "admin_tools"
+projects[admin_tools][version] = "1.0"
 projects[] = "adminrole"
 projects[] = "advanced_help"
 projects[] = "apachesolr"
